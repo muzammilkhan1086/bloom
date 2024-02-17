@@ -1,0 +1,75 @@
+.nav-link{
+    color: white;
+margin-left: 20px;
+transition: .5s;
+}
+.nav-link:hover{
+    color:orange ;
+}
+.navbar-brand{
+    margin-right: 60%;
+}
+body{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+.page1{
+    background-image: url(https://t4.ftcdn.net/jpg/01/35/23/71/360_F_135237184_vZnNVRuaHQZclXjxJ7ftEa3IyerhDF2y.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90%;
+    height: 60vh;
+    width: 100vw;
+}
+.p1text{
+margin-left:10% ;
+margin-top: 3%;
+}
+#p1{
+  margin-top: 2%;
+  line-height: 30px;
+}
+#p1btn{
+    background-color:orange ;
+    color: white;
+border: none;
+width: 10%;
+padding: .5%;
+border-radius: 10px;
+transition: .7s;
+}
+#p1btn:hover{
+    box-shadow: 10px 10px 10px black;
+    background-color: black;
+    color: white;
+}
+.page2{
+    background-color: white;
+}
+#p2h{
+    margin-left:10% ; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.card3{
+    /* background-color: white; */
+    gap: 3%;
+    display: flex;
+justify-content: center;
+/* justify-content: space-evenly; */
+}
+.btn{
+    background-color:orange ;
+    color: white;
+border: none;
+width: 60%;
+padding: 2%;
+border-radius: 10px;
+transition: .7s;
+}
+.btn:hover{
+    box-shadow: 10px 10px 10px black;
+    background-color: black;
+    color: white;
+}
